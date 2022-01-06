@@ -191,8 +191,8 @@ letter-spacing: 0.03em;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .block-text {
     font-family: Roboto, monospace;
@@ -200,7 +200,26 @@ letter-spacing: 0.03em;
     line-height: 1.19;
     letter-spacing: 0.03em;
     padding-bottom: 30px;
+    color: var(--primary-text-color);
 }
+.border-list {
+    padding-left: 0;
+    margin-left: 0;
+    min-width: 1170px;
+}
+.border-team {
+display: inline-block;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+width: 270px;
+margin-right: 30px;
+padding-left: 0;
+text-align: center;
+}
+.border-team:last-child {
+    margin-right: 0;
+}
+
 
 /* Foter */
 .footer {
@@ -213,6 +232,10 @@ letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1,71;
     letter-spacing: 0.03em;
+    
+}
+.footer-link:first-child {
+  margin-bottom: 9px;
 }
 .footer-maps {
     display: inline-block;
@@ -238,6 +261,7 @@ letter-spacing: 0.03em;
 
 /* ПОРТФОЛИО */
 
+}
 /* Фильрт */
 .filter-list {
 color: var(--title-text-color);
@@ -247,6 +271,7 @@ font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
+
 }
 
 .button-one{
@@ -264,11 +289,15 @@ letter-spacing: 0.03em;
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
+    border-radius: 4px;
+    border: transparent;
+    
 }
 .button-one:hover,
 .button-one:focus {
     color: #ffffff;
     background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-two {
@@ -286,11 +315,14 @@ letter-spacing: 0.03em;
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
+    border-radius: 4px;
+    border: transparent;
 }
 .button-two:hover,
 .button-two:focus {
     color: #ffffff;
     background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-three {
@@ -308,11 +340,14 @@ letter-spacing: 0.03em;
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
+    border-radius: 4px;
+    border: transparent;
 }
 .button-three:hover,
 .button-three:focus {
     color: #ffffff;
     background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-four {
@@ -330,11 +365,14 @@ letter-spacing: 0.03em;
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
+    border-radius: 4px;
+    border: transparent;
 }
 .button-four:hover,
 .button-four:focus {
     color: #ffffff;
     background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-five {
@@ -352,11 +390,14 @@ letter-spacing: 0.03em;
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
+    border-radius: 4px;
+    border: transparent;
 }
 .button-five:hover,
 .button-five:focus {
     color: #ffffff;
     background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* Примеры работ */
