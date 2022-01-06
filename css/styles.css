@@ -8,6 +8,28 @@
 --accent-color:#2196F3;
 }
 
+
+.container {
+    outline: 2px solid tomato;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 body {
     color: var(--primary-text-color);
     font-family: Roboto, monospace;
@@ -39,14 +61,16 @@ color: #000000;
 
 /* Site-nav */
 header {
-    font-family: Roboto,monospace;
+    font-family: Roboto, monospace;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     text-decoration: none;
+    
 }
+
 
 .site-nav .link {
 color: #212121;
@@ -66,6 +90,7 @@ color: var(--primary-text-color);
 /* Hero */
 .hero {
     background-color: #2F303A;
+    text-align: center;
 }
 .hero-title {
     color: #ffffff;
@@ -73,25 +98,28 @@ color: var(--primary-text-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 /* Button */
 .main-button {
+ 
 background-color: var(--accent-color);    
 color: #ffffff;
 
 font-family: Roboto, monospace;
 font-weight: 700;
 font-size: 16px;
-line-height: 1.9;
-
+line-height: 1.88;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-width: 200px;
-height: 50px;
+min-width: 200px;
+min-height: 50px;
 cursor: pointer;
+padding: 10px 32px;
+border-radius: 4px;
+border: transparent;
 }
 
 /* Delete hidden title */
