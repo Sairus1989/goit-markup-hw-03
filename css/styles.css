@@ -33,6 +33,7 @@ p {
 body {
     color: var(--primary-text-color);
     font-family: Roboto, monospace;
+    font-style: normal;
 }
 
 /* Delet Marker */
@@ -46,6 +47,7 @@ a {
 
 /* logo */
 .logo {
+    display: inline-block;
     color: var(--accent-color);
     font-family: Raleway,  monospace;
     font-weight: bold;
@@ -53,6 +55,8 @@ a {
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 
 .logo-header {
@@ -68,7 +72,7 @@ header {
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     text-decoration: none;
-    
+
 }
 
 
@@ -91,6 +95,7 @@ color: var(--primary-text-color);
 .hero {
     background-color: #2F303A;
     text-align: center;
+    margin-bottom: 94px;
 }
 .hero-title {
     color: #ffffff;
@@ -128,6 +133,10 @@ border: transparent;
 }
 
 /* Section */
+.section {
+margin-bottom: 94px;
+}
+
 .section-text {
 font-size: 14px;
 line-height: 1.71;
@@ -140,11 +149,16 @@ letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 
 .section-block {
     background-color: #F5F4FA;
     color: var(--title-text-color);
+}
+
+.section-feature {
+    margin-bottom: 94px;
 }
 
 .feature-title {
@@ -155,6 +169,19 @@ letter-spacing: 0.03em;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+.team-title {
+    color: var(--title-text-color);
+    font-family: Roboto, monospace;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    padding-top: 94px;
 }
 
 .block-title {
@@ -164,12 +191,15 @@ letter-spacing: 0.03em;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 .block-text {
     font-family: Roboto, monospace;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    padding-bottom: 30px;
 }
 
 /* Foter */
@@ -179,17 +209,20 @@ letter-spacing: 0.03em;
 .footer-link {
     color: rgba(255, 255, 255, 0.6);
     font-family: Roboto;
+    font-style: normal;
     font-size: 14px;
     line-height: 1,71;
     letter-spacing: 0.03em;
 }
 .footer-maps {
+    display: inline-block;
     color: #ffffff;
     font-family: Roboto, monospace;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
+    margin-bottom: 9px;
 }
 .footer-maps:hover,
 .footer-maps:focus,
